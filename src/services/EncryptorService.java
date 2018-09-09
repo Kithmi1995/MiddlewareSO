@@ -12,7 +12,7 @@ package services;
 public class EncryptorService {
     
     public String encrypt(String msg){
-        int key = 4;
+        int key = 4; //key
         String enc_msg = "";
         int msg_len = msg.length();
         char new_char;
